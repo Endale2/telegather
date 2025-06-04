@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="telegather",
-    version="0.1.0",
+    version="0.1.1",
     author="Endale Shimelis",
     author_email="endale406@gmail.com",
     description="CLI tool to scrape messages from a Telegram channel into CSV.",
@@ -24,6 +24,7 @@ setuptools.setup(
             "telegather=telegather.cli:main",
         ],
     },
+    
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
