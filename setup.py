@@ -1,5 +1,3 @@
-
-
 import setuptools
 
 with open("README.md", "r", encoding="utf-8") as fh:
@@ -7,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="telegather",
-    version="0.1.3",
+    version="0.1.4",
     author="Endale Shimelis",
     author_email="endale406@gmail.com",
     description="CLI tool to scrape messages from a Telegram channel into CSV.",
