@@ -1,3 +1,5 @@
+# setup.py (after)
+
 import setuptools
 
 with open("README.md", "r", encoding="utf-8") as fh:
@@ -5,14 +7,21 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="telegather",
-    version="0.1.1",
+    version="0.1.2",
     author="Endale Shimelis",
     author_email="endale406@gmail.com",
     description="CLI tool to scrape messages from a Telegram channel into CSV.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/Endale2/telegather",
+
+    # SPDX license expression (PyPI understands “MIT”)
     license="MIT",
+
+    # <— This tells setuptools “please include exactly this LICENSE file in dist-info”
+    #     and not to auto-generate a separate License-File metadata field.
+    license_files=("LICENSE",),
+
     packages=setuptools.find_packages(),
     python_requires=">=3.7",
     install_requires=[
