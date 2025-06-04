@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: telegather
-Version: 0.1.1
+Version: 0.1.4
 Summary: CLI tool to scrape messages from a Telegram channel into CSV.
 Home-page: https://github.com/Endale2/telegather
 Author: Endale Shimelis

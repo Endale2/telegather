@@ -11,4 +11,3 @@ telegather.egg-info/dependency_links.txt
 telegather.egg-info/entry_points.txt
 telegather.egg-info/requires.txt
 telegather.egg-info/top_level.txt
-tests/test_scraper.py
